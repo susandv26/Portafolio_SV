@@ -17,7 +17,7 @@
             background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-abstracto-textura.jpg");
             background-size: cover;
             background-position: center center;
-            height: 100vh;
+            height: 167vh;
         }
         
         #inicio .contenido header {
@@ -78,7 +78,7 @@
         
         #inicio .contenido .presentacion {
             max-width: 1100px;
-            height: 100vh;
+            height: 163vh;;
             margin: auto;
             color: #fff;
             display: flex;
@@ -565,9 +565,6 @@
         /* *********************/
         
         @media screen and (max-width: 800px) {
-            .redes {
-                display: none;
-            }
             nav {
                 display: none;
             }
