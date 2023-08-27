@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Susan-Delcid-portafolio</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>SUSAN DEL CID</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">CURSOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://github.com/susandv26"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/suseyvalladares95"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/susan-nicoll-del-cid-valladares-22569a271/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <section id="sobremi">
+                    <div class="contenedor-foto">
+                        <br><br>
+                        <img src="img/IMG-20220401-WA0027.jpg" alt="imagen perfil">
+                    </div>
+                    <br>
+                    <div class="sobremi">
+                        <br><br>
+                        <p class="titulo-seccion">Sobre Mi</p>
+                        <br>
+                        <span>Hola soy Susan Delcid</span>
+                        <br><br>
+                        <p>Soy estudiante de ingenieria en sistemas de la universidad Nacional Autonoma de Honduras lo cual soy una persona que le gusta cumplir su sueños, motivada a conseguir resultado dentro de area a implementar.</p>
+                        <p>me gusta mucho el diseño grafico, redes y seguridad informatica, tengo interes en la musica, video juegos y diseñar</p>
+                        <div class="fila">
+                            <!--dattos personales-->
+                            <div class="col">
+                                <h3>Datos Personales</h3>
+                                <ul>
+                                    <li>
+                                        <strong>Lugar de Nacimiento</strong>
+                                         Honduras, Tegucigalpa
+                                    </li>
+                                    <li>
+                                        <strong>Nacimiento</strong>
+                                         Noviembre 26, 1995
+                                    </li>
+
+                                    <li>
+                                        <strong>Teléfono</strong>
+                                        +504 9526-0937
+                                    </li>
+                                    <li>
+                                        <strong>E-mail</strong>
+                                        susan.delcidvalladares@gmail.com
+                                    </li>
+                                    <li>
+                                        <strong>Educación</strong>
+                                        Pasante universitario ingenieria en sistemas
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <a href="#">Descargar CV</a>
+
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Cursos Recibidos</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-briefcase"></i></span>
+                <h4>Tecnicas para autodesarrollo</h4>
+                <hr>
+                <p>certificado Alura latam + oracle </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-palette"></i></span>
+                <h4>HTML y CSS3</h4>
+                <hr>
+                <p>certificado Alura latam + oracle </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Javascript</h4>
+                <hr>
+                <p>certificado Alura latam + oracle </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-palette"></i></span>
+                <h4>Diseño Gráfico</h4>
+                <hr>
+                <p>certificado de Level7 </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Lógica de programación</h4>
+                <hr>
+                <p>certificado Alura latam + oracle </p>
+            </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">65%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">55%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Landing page.jpeg" alt="">
+                <div class="info">
+                    <h4>Creaccion de app delivery Rapid Riders</h4>
+                    <p>Diseño Web</p>
+                    <ol><li>Creación de frontend de app Motorista</li>
+                    <li>Creación de frontend de app Clientes</li>
+                <li>Creación de frontend de app administrador</li>
+            <li>Creación del Backend</li></ol>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/imagwn de ecriptacion.jpeg" alt="">
+                <div class="info">
+                    <h4>Encriptador de texto con Javascript</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/redes.png" alt="">
+                <div class="info">
+                    <h4>Proyecto de Protocolo Dinamico</h4>
+                    <p>Redes</p>
+                    <ol><li>Protocolo IGRP</li>
+                        <li>Protocolo BGP</li>
+                    <li>Protocolo RIP</li>
+                <li>Protocolo OSPF</li></ol>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="https://github.com/susandv26"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/suseyvalladares95"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/susan-nicoll-del-cid-valladares-22569a271/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="controlador.js"></script>
+</body>
+
+</html>
